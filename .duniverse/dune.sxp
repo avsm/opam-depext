@@ -1,0 +1,3 @@
+((repos
+  (((dir cmdliner) (upstream git://github.com/dune-universe/cmdliner.git)
+    (ref duniverse-v1.0.2)))))

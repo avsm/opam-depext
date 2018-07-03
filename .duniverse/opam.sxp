@@ -1,0 +1,6 @@
+((roots (((name cmdliner)))) (excludes (((name result)) ((name topkg))))
+ (pins ())
+ (pkgs
+  (((package ((name cmdliner) (version (1.0.2))))
+    (dev_repo (Duniverse_fork cmdliner)) (tag (v1.0.2)))))
+ (opam_switch ocaml-system))
