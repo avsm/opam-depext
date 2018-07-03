@@ -6,7 +6,7 @@ shell/build.sh: shell/build.ml
 	chmod a+x $@
 
 clean:
-	rm -f opam-depext shell/build.sh *.cmi *.cma *.cmo *.cmx
+	git clean -dxf
 
 install:
 	opam-installer --prefix=$(PREFIX)
